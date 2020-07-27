@@ -35,7 +35,7 @@ cd koa-servers
 yarn install / npm install
 nodemon index.js
 ````
-
+- Please put .env under koa-servers/
 
 ## UNIT TEST
 
