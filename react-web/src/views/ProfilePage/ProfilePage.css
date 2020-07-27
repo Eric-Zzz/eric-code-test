@@ -1,0 +1,42 @@
+.list-item {
+    background-color: white;
+    padding: 5px 15px;
+    margin-top: 5px;
+    text-align: left;
+    min-height: 140px;
+}
+
+.ant-avatar {
+    height: 64px;
+    width: 64px;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ant-list-item-meta {
+    padding-bottom: 10px;
+}
+
+
+.ant-card-meta-title {
+    font-size: 24px;
+}
+
+.card-user-name {
+    font-size: 24px;
+}
+
+.loading {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.home-button {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+

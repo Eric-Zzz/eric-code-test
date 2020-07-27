@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+/react-web/node_modules/
+/koa-servers/node_modules/
+/koa-servers/.env
+/koa-servers/logs/
+.idea
+/koa-servers/.idea
+/react-web/.idea

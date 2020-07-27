@@ -1,0 +1,39 @@
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/*.{js,jsx,mjs,ts,tsx}": [
+      "node_modules/.bin/prettier --write",
+      "node_modules/.bin/eslint --fix",
+      "git add"
+    ],
+    "src/*.{css,scss,less,json,html,md,markdown}": [
+      "node_modules/.bin/prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "dotenv": "^8.2.0",
+    "husky": "^4.2.5",
+    "koa": "^2.13.0",
+    "koa-logs-middleware": "^0.1.0",
+    "koa-router": "^9.1.0",
+    "koa2-cors": "^2.0.6",
+    "lint-staged": "^10.2.11",
+    "nodemon": "^2.0.4",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}

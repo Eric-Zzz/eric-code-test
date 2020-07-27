@@ -1,0 +1,23 @@
+.list-item {
+    background-color: white;
+    padding: 5px 15px;
+    margin-top: 5px;
+    text-align: left;
+    min-height: 140px;
+}
+
+.ant-avatar {
+    height: 64px;
+    width: 64px;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ant-list-item-meta {
+    padding-bottom: 10px;
+}
+
+

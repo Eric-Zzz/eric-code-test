@@ -1,0 +1,33 @@
+.logo {
+  background: rgba(255, 255, 255, 0.2);
+  float: left;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.menu {
+  float: right;
+  font-weight: bold;
+  color: #9facbd;
+}
+
+.header {
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: white;
+  float: right;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.content {
+  width: 800px;
+  padding: 0 50px;
+  min-height: 500px;
+  margin: auto;
+}
