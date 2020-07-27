@@ -1,6 +1,6 @@
-const koa =require("koa") ;
-const userRouter =require("./routers") ;
-const cors =require("koa2-cors") ;
+const koa = require("koa");
+const userRouter = require("./routers");
+const cors = require("koa2-cors");
 const path = require('path');
 const logger = require('koa-logs-middleware');
 
@@ -29,7 +29,7 @@ app.use(logger({
 }));
 
 
-app.use(async(ctx, next) => {
+app.use(async (ctx, next) => {
     const start = new Date();
     await next();
     const ms = new Date() - start;
@@ -37,7 +37,7 @@ app.use(async(ctx, next) => {
 });
 
 
-app.use(userRouter.routes()).use(userRouter.allowedMethods({ throw: true }));
+app.use(userRouter.routes()).use(userRouter.allowedMethods({throw: true}));
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
-module.exports=app;
+module.exports = app;
