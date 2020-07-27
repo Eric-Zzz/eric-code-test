@@ -20,7 +20,7 @@ For front-end, I would like to use vanilla React + Redux, don't want to include 
 ### For Back-end
 1. Init koa project
 2. Apply for twitter api key 
-3. Create API for frontend to get data, using RESTful API style
+3. Create API for frontend to get data
 4. Validate data collect from the third party
 5. Add middleware to create log files
 
