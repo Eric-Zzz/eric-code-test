@@ -30,3 +30,4 @@ For front-end, I would like to use vanilla React + Redux, don't want to include 
 2. More unit test for backend (mocha)
 3. Build in docker & Deploy on cloud
 4. Consider CI/CD 
+5. Add type check on both side.
